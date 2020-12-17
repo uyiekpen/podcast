@@ -1,0 +1,66 @@
+.parentDiv{
+  
+}
+
+.subParentDiv{
+  height: 100vh;
+  width: 100vw;
+  background-image: url(../Img/vv.jpeg);
+  background-size: cover;
+  background-position: sticky;
+  font-family: Poppins;
+  
+}
+
+.theHeader{
+  display: flex;
+}
+
+.logoDiv{
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.navDiv{
+  width: 600px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 650px;
+}
+
+.nav{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.MenuIcon{
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.MenuIcon{
+  display: None;
+
+}
+
+@media screen and (max-width: 760px) {
+  .MenuIcon {
+    display: block;
+  }
+}
+
+.link{
+  text-decoration: none;
+}
+
+.osas{
+  margin-left: 60px;
+}
+
+.ppp{
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+}
